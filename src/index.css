@@ -2,10 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Navigation */
 .navItem {
-  @apply mr-5 bg-plight px-5 rounded-xl;
+  @apply mr-5 bg-plight px-5 rounded-xl mb-3;
 }
 
 .navLink {
   @apply font-medium text-base leading-10 text-pmiddle hover:text-pdark;
+}
+
+/* Cards */
+
+.card {
+  @apply bg-white border border-gray-200 rounded-lg mr-8 mb-7;
+}
+
+.cardTitle {
+  @apply font-medium my-3 text-2xl leading-7;
+}
+
+.cardBody {
+  @apply opacity-60 text-sm leading-5;
+}
+
+/* Tags */
+.tag1 {
+  @apply bg-plight w-10 h-6 flex items-center justify-center rounded-md;
+}
+
+.tag2 {
+  @apply bg-somone w-16 h-6 flex items-center justify-center rounded-md;
+}
+
+
+
+.tag3 {
+  @apply bg-glight w-14 h-6 flex items-center justify-center rounded-md;
+}
+
+.textTag {
+  @apply text-center text-xs leading-4 font-medium;
 }

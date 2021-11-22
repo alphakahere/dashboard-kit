@@ -6,7 +6,10 @@ module.exports = {
       colors: {
         'pmiddle': '#7069f5',
         'pdark' : '#4339F2',
-        'plight' : '#DAD7FE'
+        'plight' : '#DAD7FE',
+        'somone' : '#FFE5D3',
+        'apple' : '#CCF8FE',
+        'glight': '#E2FBD7',
       }
     },
   },

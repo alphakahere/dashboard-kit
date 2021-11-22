@@ -14,7 +14,7 @@ const Header = () => {
                 </h3>
                 <h1 className="my-8 font-bold text-7xl">Full Preview</h1>
                 <nav className="flex flex-col items-center">
-                    <ul className="flex flex-wrap items-center w-full space-y-3">
+                    <ul className="flex flex-wrap items-center w-full">
                         <li className="navItem">
                             <a href="#cards" className="navLink">Cards</a>
                         </li>
