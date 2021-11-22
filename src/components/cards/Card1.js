@@ -1,6 +1,11 @@
 import React from 'react'
 
-import avatar1 from '../../images/avatar.jpg'
+import avatar from '../../images/avatar.jpg'
+import avatar1 from '../../images/avatar1.jpg'
+import avatar2 from '../../images/avatar2.jpg'
+
+
+
 
 const Card1 = () => {
     return (
@@ -15,9 +20,9 @@ const Card1 = () => {
                     the nature of those long tails. A large amount of dust.
                </p>
                 <div className="mt-8 flex items-center space-x-3">
-                    <img src={avatar1} alt="" className=" w-10 h-10 rounded-full"/>
-                    <img src={avatar1} alt="" className=" w-10 h-10 rounded-full"/>
-                    <img src={avatar1} alt="" className=" w-10 h-10 rounded-full"/>
+                    <img src={avatar} alt="" className=" w-10 h-10 rounded-full object-cover"/>
+                    <img src={avatar1} alt="" className=" w-10 h-10 rounded-full object-cover"/>
+                    <img src={avatar2} alt="" className=" w-10 h-10 rounded-full object-cover"/>
                 </div>
            </div>
 

@@ -14,7 +14,7 @@
 /* Cards */
 
 .card {
-  @apply bg-white border border-gray-200 rounded-lg mr-8 mb-7;
+  @apply bg-white border border-gray-200 rounded-lg;
 }
 
 .cardTitle {

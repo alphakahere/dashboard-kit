@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Card2 = () => {
+const Card5 = () => {
     return (
-        <div className="card px-4 py-5" style={{width:'326px', height:'340px'}}>
+        <div className="card px-4 py-5 card5 flex  flex-col  justify-between xl:absolute" style={{width:'326px', height:'340px', top:'350px'}}>
             {/* Card-Tags */}
             <div className="flex space-x-3 mb-3">
                 <div className="tag1">
@@ -15,20 +15,15 @@ const Card2 = () => {
                     <span className="textTag">Hubble</span>
                 </div>
             </div>
-            {/* card-image */}
-            <img src="https://cdn.pixabay.com/photo/2021/02/18/12/03/people-6027028__340.jpg" alt="student-img" className="h-32 w-full rounded-lg"/>
             {/* card-body */}
-            <div className=" flex flex-col">
-                <h1 className="cardTitle">Sénégal</h1>
+            <div className="flex flex-col text-gray-100">
+                <h1 className="cardTitle">New York</h1>
                 <p className="cardBody">
                     When you enter into any new area of science, you almost always find.
-                </p>
-                <p className="my-3">
-                    <a href="#link" className=" text-sm leading-5 text-pmiddle hover:text-pdark">Details</a>
                 </p>
             </div>
         </div>
     )
 }
 
-export default Card2
+export default Card5
