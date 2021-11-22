@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navItem {
+  @apply mr-5 bg-plight px-5 rounded-xl;
+}
+
+.navLink {
+  @apply font-medium text-base leading-10 text-pmiddle hover:text-pdark;
+}
