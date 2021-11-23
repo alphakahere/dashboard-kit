@@ -1,7 +1,8 @@
 import './App.css';
+import Charts from './components/charts/Charts';
 // import Cards from './components/cards/Cards';
 // import Header from './components/header/Header';
-import Widgets from './components/widgets/Widgets';
+// import Widgets from './components/widgets/Widgets';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <div className="container space-y-28">
         {/* <Header />
         <Cards /> */}
-        <Widgets />
+        {/* <Widgets /> */}
+
+        <Charts />
       </div>
     </div>
   );
