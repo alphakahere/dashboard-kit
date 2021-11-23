@@ -54,3 +54,7 @@
   @apply flex items-center space-x-2;
 }
 
+.customBorder {
+  border-width: 16px;
+}
+
