@@ -10,21 +10,21 @@ import djeynaba from '../../images/djeynaba.jpeg'
 
 const TopBar = () => {
     return (
-        <div class="flex justify-between">
-            <div class="flex items-center">            
+        <div className="flex justify-between">
+            <div className="flex items-center">            
                 <RiSearchLine />
-                <span class=" text-sm text-gray-400">Search</span> 
+                <span className=" text-sm text-gray-400">Search</span> 
             </div>
-            <div class="flex items-center space-x-1 ">
-                <div class="flex items-center">
-                    <div class="relative">
+            <div className="flex items-center space-x-1 ">
+                <div className="flex items-center">
+                    <div className="relative">
                         <img src={avatar} alt="my-profil"  className="w-9 h-9 rounded-full object-cover"/>
-                        <span class="h-3 w-3  rounded-full bg-gdark absolute top-6 left-6"></span>
+                        <span className="h-3 w-3  rounded-full bg-gdark absolute top-6 left-6"></span>
                     </div>
                 </div>
                 <img src={djeynaba} alt="my-profil" className="w-9 h-9 rounded-full object-cover"/>
                 <img src={kalika} alt="my-profil" className="w-9 h-9 rounded-full object-cover"/>
-                <div class="flex items-center bg-pdark w-9 h-9 justify-center rounded-full">
+                <div className="flex items-center bg-pdark w-9 h-9 justify-center rounded-full">
                     <FaPlus className=" text-white" size={15}/>
                 </div>
             </div>
