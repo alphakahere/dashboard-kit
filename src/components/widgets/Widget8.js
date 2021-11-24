@@ -70,7 +70,7 @@ const Widget8 = () => {
                 pointStyle : 'dash'
             },
             line : {
-                tension:1
+                tension:0.4
             }
         }
 	};

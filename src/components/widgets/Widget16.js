@@ -68,7 +68,7 @@ const Widget16 = () => {
                 pointStyle : 'line'
             },
             line : {
-                tension:1
+                tension:0.3
             }
         }
 	};
@@ -81,7 +81,7 @@ const Widget16 = () => {
 			{
 				id: 1,
 				label: "Restless",
-				data: [1, 3, 2, 4, 4, 4, 5, 6, 7, 8, 9],
+				data: [1, 3, 2, 4, 4, 6, 5, 6, 8, 7, 9],
 				borderColor: "#FFB200",
 				backgroundColor: "#FFB200",  
 				fill:true              

@@ -66,10 +66,10 @@ const Widget4 = () => {
 		},
         elements : {
             point: {
-                pointStyle : 'line'
+                pointStyle : 'cross'
             },
             line : {
-                tension:1
+                tension:0.5
             }
         }
 	};
