@@ -14,7 +14,55 @@ import {
     FiBellOff,
     FiWifi,
     FiWifiOff,
-    FiAlertOctagon
+    FiAlertOctagon,
+	FiShoppingBag,
+	FiShoppingCart,
+	FiSlash,
+	FiShuffle,
+	FiBookmark,
+	FiCalendar,
+	FiBriefcase,
+	FiSettings,
+	FiCopy,
+	FiDownload,
+	FiUpload,
+	FiMusic,
+	FiThermometer,
+	FiCornerDownLeft,
+	FiCornerDownRight,
+	FiCornerLeftDown,
+	FiCornerLeftUp,
+	FiCornerRightDown,
+	FiCornerRightUp,
+	FiCornerUpLeft,
+	FiCornerUpRight,
+	FiCamera,
+	FiCreditCard,
+	FiSave,
+	FiTrash,
+	FiTrash2,
+	FiTrendingUp,
+	FiTrendingDown,
+	FiFolder,
+	FiFolderPlus,
+	FiFolderMinus,
+	FiEye,
+	FiEyeOff,
+	FiFile,
+	FiFileText,
+	FiFilePlus,
+	FiFileMinus,
+	FiUser,
+	FiUsers,
+	FiUserPlus,
+	FiUserMinus,
+	FiUserCheck,
+	FiUserX,
+	FiGrid,
+	FiHardDrive,
+	FiHash,
+	FiHeadphones,
+	FiHeart,
 
 } from "react-icons/fi";
 import {
@@ -43,16 +91,20 @@ import {
 	ImArrowUpLeft2,
 	ImArrowDownRight2,
 	ImArrowDownLeft2,
+	ImShuffle,
 } from "react-icons/im";
 import { FaRegPlusSquare, FaRegMinusSquare,FaBatteryEmpty } from "react-icons/fa";
 import { GrCircleAlert } from "react-icons/gr";
 import { IoMdCheckmarkCircleOutline, IoMdCheckboxOutline} from "react-icons/io";
 import { GiHamburgerMenu, GiMove } from "react-icons/gi";
 import { GrCheckmark } from "react-icons/gr";
-import { MdMicOff, MdBarChart } from "react-icons/md";
+import { MdMicOff, MdBarChart,MdShuffle } from "react-icons/md";
 import {BiLinkExternal,BiBluetooth,BiSquareRounded,BiEditAlt} from 'react-icons/bi'
-import {IoPaperPlaneOutline} from 'react-icons/io5'
-import {RiPencilLine} from 'react-icons/ri'
+import {IoFunnelOutline, IoPaperPlaneOutline} from 'react-icons/io5'
+import {RiBookLine, RiDownloadCloud2Line, RiEyeCloseLine, RiPencilLine, RiPriceTag3Line, RiUploadCloud2Line} from 'react-icons/ri'
+import {AiOutlineSetting} from 'react-icons/ai'
+
+
 
 
 
@@ -140,6 +192,73 @@ const Icons = () => {
                 <FiAlertOctagon size={26} className="mr-4 mb-5" />
                 <RiPencilLine size={26} className="mr-4 mb-5" /> 
                 <BiEditAlt size={26} className="mr-4 mb-5" />
+				<FiShoppingBag size={26} className="mr-4 mb-5" />
+				<FiShoppingCart size={26} className="mr-4 mb-5" />
+				<ImShuffle size={26} className="mr-4 mb-5" />
+				<MdShuffle size={26} className="mr-4 mb-5" />
+				<FiShuffle size={26} className="mr-4 mb-5" />
+				<FiSlash size={26} className="mr-4 mb-5" />
+				<IoFunnelOutline size={26} className="mr-4 mb-5" />
+				<FiBookmark size={26} className="mr-4 mb-5" />
+				<RiBookLine size={26} className="mr-4 mb-5" />
+				<FiCalendar size={26} className="mr-4 mb-5" />
+				<FiBriefcase size={26} className="mr-4 mb-5" />
+				<AiOutlineSetting size={26} className="mr-4 mb-5" />
+				<FiSettings size={26} className="mr-4 mb-5" />
+				<FiCopy size={26} className="mr-4 mb-5" />
+				<FiDownload size={26} className="mr-4 mb-5" />
+				<FiUpload size={26} className="mr-4 mb-5" />
+				<FiMusic size={26} className="mr-4 mb-5" />
+				<RiPriceTag3Line size={26} className="mr-4 mb-5" />
+				<FiThermometer size={26} className="mr-4 mb-5" />
+				<FiCornerDownLeft size={26} className="mr-4 mb-5" />
+				<FiCornerDownRight size={26} className="mr-4 mb-5" />
+				<FiCornerLeftDown size={26} className="mr-4 mb-5" />
+				<FiCornerLeftUp size={26} className="mr-4 mb-5" />
+				<FiCornerRightDown size={26} className="mr-4 mb-5" />
+				<FiCornerRightUp size={26} className="mr-4 mb-5" />
+				<FiCornerUpLeft size={26} className="mr-4 mb-5" />
+				<FiCornerUpRight size={26} className="mr-4 mb-5" />
+				<FiCamera size={26} className="mr-4 mb-5" />
+				<FiCreditCard size={26} className="mr-4 mb-5" />
+				<FiSave size={26} className="mr-4 mb-5" />
+				<FiTrash size={26} className="mr-4 mb-5" />
+				<FiTrash2 size={26} className="mr-4 mb-5" />
+				<FiTrendingUp size={26} className="mr-4 mb-5" />
+				<FiTrendingDown size={26} className="mr-4 mb-5" />
+				<FiFolder size={26} className="mr-4 mb-5" />
+				<FiFolderPlus size={26} className="mr-4 mb-5" />
+				<FiFolderMinus size={26} className="mr-4 mb-5" />
+				<FiEye size={26} className="mr-4 mb-5" />
+				<FiEyeOff size={26} className="mr-4 mb-5" />
+				<RiEyeCloseLine size={26} className="mr-4 mb-5" />
+				<FiFile size={26} className="mr-4 mb-5" />
+				<FiFileText size={26} className="mr-4 mb-5" />
+				<FiFilePlus size={26} className="mr-4 mb-5" />
+				<FiFileMinus size={26} className="mr-4 mb-5" />
+				<FiUser size={26} className="mr-4 mb-5" />
+				<FiUsers size={26} className="mr-4 mb-5" />
+				<FiUserPlus size={26} className="mr-4 mb-5" />
+				<FiUserMinus size={26} className="mr-4 mb-5" />
+				<FiUserCheck size={26} className="mr-4 mb-5" />
+				<FiUserX size={26} className="mr-4 mb-5" />
+				<RiDownloadCloud2Line size={26} className="mr-4 mb-5" />
+				<RiUploadCloud2Line size={26} className="mr-4 mb-5" />
+				<FiGrid size={26} className="mr-4 mb-5" />
+				<FiHardDrive size={26} className="mr-4 mb-5" />
+				<FiHash size={26} className="mr-4 mb-5" />
+				<FiHeadphones size={26} className="mr-4 mb-5" />
+				<FiHeart size={26} className="mr-4 mb-5" />
+
+
+
+
+
+
+
+
+
+
 			</div>
 			</div>
 	);
