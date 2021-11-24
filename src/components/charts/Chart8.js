@@ -100,11 +100,11 @@ const Chart8 = () => {
 							</h1>
 							<div className="flex flex-col  space-y-3 md:flex-row md:space-y-0 md:space-x-3">
 								<div className="item">
-									<span className="dot bg-cblue"></span>
+									<span className="dot bg-pdark"></span>
 									<span>Restless</span>
 								</div>
 								<div className="item">
-									<span className="dot bg-gdark"></span>
+									<span className="dot bg-plight"></span>
 									<span>Awake</span>
 								</div>
 							</div>
