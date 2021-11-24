@@ -4,7 +4,7 @@ import TopBar from '../items/TopBar'
 
 import { Line } from 'react-chartjs-2'
 
-const Chart2 = () => {
+const Chart3 = () => {
 
     const options = {
         responsive: true,
@@ -37,10 +37,10 @@ const Chart2 = () => {
         },
         elements : {
             point: {
-                pointStyle : 'cross'
+                pointStyle : 'line'
             },
             line : {
-                tension:0.3
+                tension:0
             }
         }
     }
@@ -66,25 +66,25 @@ const Chart2 = () => {
             {
                 id:1,
                 label:"Restless",
-                data: [200, 350, 300, 350, 200, 290, 200, 320,200,340,290,40,0],
+                data: [0, 60, 60, 60, 140, 100, 300, 270,210,350,490,540,600],
                 borderColor: '#4339F2'
             },
             {
                 id:2,
                 label:"Awake",
-                data: [300, 410, 80, 590, 310, 450, 90, 505,50,300,600,300,600],
+                data: [0, 100, 160, 130, 210, 350, 400, 430,440,450,370,485,500],
                 borderColor: '#FF3A29'
             },
             {
                 id:3,
                 label:"Deep",
-                data: [490, 355, 360, 500, 460, 525, 490, 560,440,377,503,400,500],
+                data: [0, 50, 110, 200, 360, 425, 490, 360,440,500,460,600,700],
                 borderColor: '#FFB200'
             },
             {
                 id:4,
                 label:"Digital",
-                data: [600, 550, 610, 520, 590, 500, 690, 585,620,520,610,770,500],
+                data: [0, 30, 50, 75, 110, 200, 300, 410,220,500,540,610,700],
                 borderColor: '#34B53A'
             }
 
@@ -97,10 +97,10 @@ const Chart2 = () => {
 			<Menu />
 			<div className="w-full py-3 pr-3">
 				<TopBar />
-				<h1 className="mt-5 cardTitle">Kazakhstan</h1>
+				<h1 className="mt-5 cardTitle">Turks and Caicos Islands</h1>
 				<div className="bg-white p-5 mt-6 rounded-lg ">
                     <div className=" flex flex-col justify-between mb-5 space-y-5 md:flex-row">
-                        <h1 className="font-medium">South Skylafort</h1>
+                        <h1 className="font-medium">Lake Orie</h1>
                         <div className="flex flex-col  space-y-3 md:flex-row md:space-y-0 md:space-x-3">
                             <div className="item">
                                 <span className="dot bg-pdark"></span>
@@ -130,4 +130,4 @@ const Chart2 = () => {
     )
 }
 
-export default Chart2
+export default Chart3
