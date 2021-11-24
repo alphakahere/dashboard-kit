@@ -1,6 +1,8 @@
 import React from 'react'
 import Chart1 from './Chart1'
 
+
+
 const Charts = () => {
     return (
         <div className="w-full ">
