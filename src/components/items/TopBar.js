@@ -10,6 +10,7 @@ import djeynaba from '../../images/djeynaba.jpeg'
 
 const TopBar = () => {
     return (
+        <div className="container">
         <div className="flex justify-between">
             <div className="flex items-center">            
                 <RiSearchLine />
@@ -22,12 +23,13 @@ const TopBar = () => {
                         <span className="h-3 w-3  rounded-full bg-gdark absolute top-6 left-6"></span>
                     </div>
                 </div>
-                <img src={djeynaba} alt="my-profil" className="w-9 h-9 rounded-full object-cover"/>
-                <img src={kalika} alt="my-profil" className="w-9 h-9 rounded-full object-cover"/>
-                <div className="flex items-center bg-pdark w-9 h-9 justify-center rounded-full">
-                    <FaPlus className=" text-white" size={15}/>
+                <img src={djeynaba} alt="my-profil" className="w-9 h-9 rounded-full object-cover hidden sm:block"/>
+                <img src={kalika} alt="my-profil" className="w-9 h-9 rounded-full object-cover hidden md:block"/>
+                <div className="items-center bg-pdark w-9 h-9 justify-center rounded-full hidden md:flex">
+                    <FaPlus className=" text-white" size={15} />
                 </div>
             </div>
+        </div>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import './App.css';
-// import Charts from './components/charts/Charts';
-import Grids from './components/grids/Grids';
+import Charts from './components/charts/Charts';
+// import Grids from './components/grids/Grids';
 // import Cards from './components/cards/Cards';
 // import Header from './components/header/Header';
 // import Widgets from './components/widgets/Widgets';
@@ -13,8 +13,8 @@ function App() {
         <Cards /> */}
         {/* <Widgets /> */}
 
-        {/* <Charts /> */}
-        <Grids />
+        <Charts />
+        {/* <Grids /> */}
       </div>
     </div>
   );
