@@ -4,10 +4,11 @@ import TopBar from "../items/TopBar";
 
 import { Bar } from "react-chartjs-2";
 
-const Chart1 = () => {
+const Chart8 = () => {
 	const options = {
 		responsive: true,
 		maintainAspectRatio: true,
+		base: 1,
 		plugins: {
 			legend: {
 				display: false,
@@ -62,37 +63,25 @@ const Chart1 = () => {
 			{
 				id: 1,
 				label: "Restless",
-				data: [
-					250, 200, 230, 60, 130, 80, 230, 200, 130, 230,
-					200, 50,
-				],
+				data: [0, 0, 0, 0, 0, 690, 0, 0, 0, 0, 0, 0],
 				borderColor: "#4339F2",
 				backgroundColor: "#4339F2",
-				barPercentage: 0.2,
-				borderRadius: 5,
+				barPercentage: 0.8,
+				borderRadius: 10,
+				borderSkipped: false,
 			},
 			{
 				id: 2,
 				label: "Awake",
 				data: [
-					200, 230, 230, 50, 230, 150, 230, 250, 130, 230,
-					200, 100,
+					500, 550, 450, 600, 560, 0, 550, 400, 600, 330,
+					200, 400,
 				],
 				borderColor: "#34B53A",
-				backgroundColor: "#34B53A",
-				barPercentage: 0.2,
-			},
-			{
-				id: 3,
-				label: "Deep",
-				data: [
-					120, 230, 230, 70, 150, 330, 230, 100, 130, 230,
-					200, 300,
-				],
-				borderColor: "#FFB200",
-				backgroundColor: "#FFB200",
-				barPercentage: 0.2,
-				borderRadius: 5,
+				backgroundColor: "#DAD7FE",
+				barPercentage: 0.7,
+				borderRadius: 10,
+				borderSkipped: false,
 			},
 		],
 	};
@@ -103,24 +92,20 @@ const Chart1 = () => {
 				<Menu />
 				<div className="w-full py-3 pr-3">
 					<TopBar />
-					<h1 className="mt-5 cardTitle">Kazakhstan</h1>
+					<h1 className="mt-5 cardTitle">Grenada</h1>
 					<div className="bg-white p-5 mt-6 rounded-lg ">
 						<div className=" flex flex-col justify-between mb-5 space-y-5 md:flex-row">
 							<h1 className="font-medium">
-								South Skylafort
+								Thereseshire
 							</h1>
 							<div className="flex flex-col  space-y-3 md:flex-row md:space-y-0 md:space-x-3">
 								<div className="item">
-									<span className="dot bg-pdark"></span>
+									<span className="dot bg-cblue"></span>
 									<span>Restless</span>
 								</div>
 								<div className="item">
 									<span className="dot bg-gdark"></span>
 									<span>Awake</span>
-								</div>
-								<div className="item">
-									<span className="dot bg-cyellow"></span>
-									<span>Deep</span>
 								</div>
 							</div>
 						</div>
@@ -134,4 +119,4 @@ const Chart1 = () => {
 	);
 };
 
-export default Chart1;
+export default Chart8;

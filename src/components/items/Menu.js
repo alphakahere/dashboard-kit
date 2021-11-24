@@ -20,7 +20,7 @@ const Menu = () => {
 				</svg>
 			</div>
 			<div className="mt-7 flex-1 flex justify-between flex-col">
-				<div className="flex flex-col space-y-4">
+				<div className="flex flex-col space-y-2 sm:space-y-4 xl:space-y-6">
 					<li className="list-none">
 						<svg
 							width="26"
