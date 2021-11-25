@@ -4,7 +4,8 @@ import './App.css';
 // import Cards from './components/cards/Cards';
 // import Header from './components/header/Header';
 // import Widgets from './components/widgets/Widgets';
-import Icons from './components/icons/Icons';
+// import Icons from './components/icons/Icons';
+import Dashboards from './components/dashboards/Dashboards';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
         {/* <Header />
         <Cards />
         <Widgets />
-        <Grids /> */}
-        <Icons />
+        <Grids />
+        <Icons /> */}
+        <Dashboards />
         {/* <Charts /> */}
       </div>
     </div>

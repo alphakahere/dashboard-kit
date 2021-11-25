@@ -58,3 +58,24 @@
   border-width: 16px;
 }
 
+/** Dashboards */
+
+.dashboardPanel {
+  @apply flex space-x-5 border rounded-lg pr-14 sm:pr-10 md:pr-4;
+}
+
+.cardPanel {
+  @apply bg-white p-3 rounded-lg;
+}
+
+.cardImg {
+  @apply w-10 h-10 rounded-full;
+}
+
+.cardBodyD {
+  @apply mt-5 flex flex-col space-y-4;
+}
+
+.progress {
+  @apply flex flex-col space-y-1;
+}
