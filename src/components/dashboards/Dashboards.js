@@ -3,6 +3,7 @@ import Dashboard1 from "./Dashboard1";
 import Dashboard2 from "./Dashboard2";
 import Dashboard3 from "./Dashboard3";
 import Dashboard4 from "./Dashboard4";
+import Dashboard5 from "./Dashboard5";
 
 const Dashboards = () => {
 	return (
@@ -15,6 +16,7 @@ const Dashboards = () => {
 				<Dashboard2 />
 				<Dashboard3 />
 				<Dashboard4 />
+				<Dashboard5 />
             </div>
 		</div>
 	);
