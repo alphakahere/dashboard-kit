@@ -40,14 +40,6 @@ const Chart1 = () => {
 				},
 			},
 		},
-		elements: {
-			point: {
-				pointStyle: "cross",
-			},
-			line: {
-				tension: 0.3,
-			},
-		},
 	};
 
 	const labels = [
